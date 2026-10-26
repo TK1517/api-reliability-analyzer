@@ -1,0 +1,20 @@
+[
+  {
+    "experiment": "local endpoint comparison",
+    "mode": "sequential",
+    "endpoint_count": 5,
+    "concurrency_limit": 1,
+    "elapsed_seconds": 1.2946,
+    "success_count": 3,
+    "failure_count": 2
+  },
+  {
+    "experiment": "local endpoint comparison",
+    "mode": "concurrent",
+    "endpoint_count": 5,
+    "concurrency_limit": 4,
+    "elapsed_seconds": 0.7068,
+    "success_count": 3,
+    "failure_count": 2
+  }
+]
