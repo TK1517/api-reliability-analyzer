@@ -89,5 +89,5 @@ See [`docs/TROUBLESHOOTING.md`](docs/TROUBLESHOOTING.md). Common fixes: activate
 ## Known limitations and future work
 This is a manually triggered monitor, not a daemon or production SLA platform. It has no authentication or multi-user access control and is intended for local use. Potential extensions include a scheduled background worker, alerting, richer request templates, retention policies, authentication profiles stored securely, and more robust network-level SSRF controls.
 
-## Academic-use disclaimer
-This implementation is intended for educational demonstration. Explain the code and experiment choices in your own words and follow your institution's rules for AI-assisted work. Never report unrun experiments or unmeasured performance as fact.
+## Live-working-instance
+https://api-reliability-analyzer-kppibjo9n97tyjrhdgdieq.streamlit.app/
